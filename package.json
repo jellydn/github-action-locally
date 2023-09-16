@@ -1,0 +1,14 @@
+{
+  "name": "how-to-run-github-action-locally-with-act",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

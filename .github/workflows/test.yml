@@ -1,0 +1,37 @@
+name: Setup Bun
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+jobs:
+  setup-bun:
+    runs-on: ${{ matrix.os }}
+    continue-on-error: true
+    strategy:
+      matrix:
+        os:
+          - ubuntu-latest
+          - macos-latest
+        bun-version:
+          - latest
+    steps:
+      - id: checkout
+        name: Checkout
+        uses: actions/checkout@v3
+      - id: setup-bun
+        name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: ${{ matrix.bun-version }}
+      - id: verify-bun
+        name: Verify Bun
+        run: |
+          bun --version
+      - id: bun-test
+        name: Bun Test
+        run: |
+          bun test
