@@ -25,6 +25,12 @@ Run all GitHub Action workflows defined in your `.github/workflows/` folder:
 act
 ```
 
+### List all jobs
+
+```bash
+act -l
+```
+
 ### Running a Specific Job
 
 Run a specific job from your workflow file:
