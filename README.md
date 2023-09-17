@@ -1,4 +1,4 @@
-# Welcome to how-to-run-github-action-locally-with-act 👋
+# Welcome to github-action-locally 👋
 
 How to run GitHub Action locally with `act`.
 
@@ -16,6 +16,10 @@ How to run GitHub Action locally with `act`.
   ```
 
 ## Usages
+
+```sh
+gh repo clone jellydn/github-action-locally
+```
 
 ### Basic Usage
 
@@ -95,6 +99,11 @@ Then you would have similar output:
 ## Troubleshooting
 
 If you encounter issues, please refer to the official [`act` User Guide](https://nektosact.com/introduction.html) or open an issue in this repository.
+
+## References
+
+[![IT Man - Talk #34 - Bye Bye #Docker Desktop [Vietnamese]](https://i.ytimg.com/vi/llThjxFb7KU/mqdefault.jpg)](https://www.youtube.com/watch?v=llThjxFb7KU)
+
 
 ## Show your support
 
