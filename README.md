@@ -6,6 +6,7 @@ How to run GitHub Action locally with `act`.
 
 ## Sources
 
+- [Bun — A fast all-in-one JavaScript runtime](https://bun.sh/)
 - [Introduction - act - User Guide](https://nektosact.com/introduction.html)
 - [OrbStack · Fast, light, simple Docker & Linux on macOS](https://orbstack.dev/)
 
@@ -19,8 +20,13 @@ How to run GitHub Action locally with `act`.
 
 ## Usages
 
+Clone your repository to your local machine:
 ```sh
 gh repo clone jellydn/github-action-locally
+```
+Then run 
+```sh
+bun install
 ```
 
 ### Basic Usage
