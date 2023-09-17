@@ -2,6 +2,8 @@
 
 How to run GitHub Action locally with `act`.
 
+[![IT Man - Running GitHub Actions Locally: A Complete Guide with act [Vietnamese]](https://i.ytimg.com/vi/nklNK13G7u4/hqdefault.jpg)](https://www.youtube.com/watch?v=nklNK13G7u4)
+
 ## Sources
 
 - [Introduction - act - User Guide](https://nektosact.com/introduction.html)
